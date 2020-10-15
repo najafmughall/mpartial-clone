@@ -5,3 +5,39 @@ header {
   left: 0;
   justify-content: space-between;
 }
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.nav-link {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+}
+.nav-link:hover {
+  color: #3ac280;
+}
+video {
+  position: absolute;
+  width: 1349px;
+  height: 758.812px;
+
+  margin: auto;
+}
+.navbar {
+  border-bottom: #fff 1px solid;
+}
+.btn-signIn {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  background-color: #3ac280;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 25px;
+  border: none;
+  height: 30px;
+  min-width: 20px;
+}
