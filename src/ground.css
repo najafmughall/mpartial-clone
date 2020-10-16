@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.section_text {
+  background-image: url("../src/images/circle.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  opacity: 1;
+  font-size: 45px;
+  height: 200px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 58px;
+  background-position: 0 16px;
+  padding-top: 21%;
+  padding-left: 17%;
+}
+.section-description {
+  padding-left: 19%;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  display: block;
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: -0.19px;
+  margin-top: 100px;
+}
