@@ -1,0 +1,37 @@
+.data {
+  padding-top: 2%;
+}
+.section_text {
+  background-position: center;
+  text-align: center;
+  padding: 12%;
+}
+.marg {
+  margin-right: 0;
+  margin-left: 0;
+}
+.data-text a {
+  color: #000;
+}
+.data-number {
+  background-image: url("../src/images/green-circle.png");
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: bottom;
+  font-size: 167px;
+  color: #0a5169;
+  min-height: 143px;
+  background-size: 119px;
+}
+.data-text {
+  text-align: left;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: -0.14px;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+.try_btn {
+  text-align: center;
+  padding: 60px 0;
+}
