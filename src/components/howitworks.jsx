@@ -4,7 +4,7 @@ class HowItWorks extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container">
+        <div className="container howitworks">
           <div className="row">
             <div className="col">
               <h1 className="section_text">How It Works</h1>

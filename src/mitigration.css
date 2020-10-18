@@ -1,0 +1,26 @@
+.image-compare {
+  width: 100%;
+  height: auto;
+  padding: 50px 50px 0 0;
+}
+.imgStyle {
+  clip: rect(auto, auto, auto, auto);
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.line-separater {
+  align-items: center;
+  cursor: ew-resize;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 475.5px;
+  position: absolute;
+  top: 0px;
+  width: 40px;
+}
