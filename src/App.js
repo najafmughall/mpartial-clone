@@ -4,6 +4,7 @@ import "./ground.css";
 import "./howitworks.css";
 import "./mitigration.css";
 import "./waterfall.css";
+import "./example.css";
 
 import Header from "./components/header";
 import GroundTruth from "./components/ground-truth";
