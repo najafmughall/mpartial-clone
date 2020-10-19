@@ -1,0 +1,20 @@
+.social-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 15px;
+}
+.footer li {
+  margin: 0 15px;
+}
+.footer {
+  background: #0a5169;
+  font-family: "Raleway", sans-serif;
+  padding: 20px 0;
+}
+.footer p {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 14px;
+  margin: 0;
+}

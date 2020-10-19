@@ -6,6 +6,7 @@ import "./mitigration.css";
 import "./waterfall.css";
 import "./example.css";
 import "./contact.css";
+import "./footer.css";
 
 import Header from "./components/header";
 import GroundTruth from "./components/ground-truth";
@@ -14,6 +15,7 @@ import Mitigation from "./components/mitigation";
 import Waterfall from "./components/waterfall";
 import ExampleDeliverables from "./components/example-deliverables";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
       <Waterfall />
       <ExampleDeliverables />
       <Contact />
+      <Footer />
     </div>
   );
 }
