@@ -11,6 +11,26 @@
   justify-content: space-between;
 }
 .widget-content {
-  width: 520px;
+  width: 540px;
   height: 480px;
+}
+.doc-slider {
+  margin: 15px auto;
+  width: 80%;
+}
+.sketch-widget {
+  margin: 40px 0;
+}
+.sketch-container {
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
+}
+.sketch-container img {
+  width: 49%;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 440px;
+  margin: 1%;
 }
