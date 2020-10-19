@@ -1,7 +1,8 @@
 .image-compare {
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   padding: 50px 50px 0 0;
+  padding-bottom: 500px;
 }
 .imgStyle {
   clip: rect(auto, auto, auto, auto);

@@ -1,15 +1,12 @@
 .data {
   padding-top: 2%;
 }
-.section_text {
+.section_text2 {
   background-position: center;
   text-align: center;
   padding: 12%;
 }
-.marg {
-  margin-right: 0;
-  margin-left: 0;
-}
+
 .data-text a {
   color: #000;
 }
@@ -22,6 +19,10 @@
   color: #0a5169;
   min-height: 143px;
   background-size: 119px;
+  font-weight: 700;
+  line-height: 87px;
+
+  letter-spacing: 0;
 }
 .data-text {
   text-align: left;
@@ -42,4 +43,5 @@
 }
 .howitworks {
   background: rgba(10, 81, 105, 0.05) 0 0 no-repeat padding-box;
+  z-index: 99;
 }

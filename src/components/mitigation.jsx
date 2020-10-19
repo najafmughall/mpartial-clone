@@ -10,10 +10,15 @@ class Mitigation extends Component {
       <React.Fragment>
         <div className="container">
           <div className="image-compare">
-            <SplitterLayout percentage={true}>
+            <SplitterLayout>
               <img src={pre} alt="pre-mitigation" className="imgStyle" />
               <img src={post} alt="post-mitigation" className="imgStyle" />
             </SplitterLayout>
+          </div>
+          <div className="try_btn">
+            <a href="#">
+              <button className="btn-signIn">Try Today</button>
+            </a>
           </div>
         </div>
       </React.Fragment>

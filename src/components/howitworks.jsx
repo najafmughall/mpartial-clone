@@ -7,13 +7,13 @@ class HowItWorks extends Component {
         <div className="container howitworks">
           <div className="row">
             <div className="col">
-              <h1 className="section_text">How It Works</h1>
+              <h1 className="section_text section_text2">How It Works</h1>
             </div>
           </div>
           <div className="data">
-            <div className="row marg">
+            <div className="row no-gutters">
               <div className="col-md-4 col-sm-12">
-                <div className="row marg">
+                <div className="row no-gutters">
                   <div className="col-md-4 col-sm-12 data-number">1</div>
                   <div className="col-md-8 col-sm-12 data-text">
                     <a href="#">
@@ -24,7 +24,7 @@ class HowItWorks extends Component {
                 </div>
               </div>
               <div className="col-md-4 col-sm-12">
-                <div className="row marg">
+                <div className="row no-gutters">
                   <div className="col-md-4 col-sm-12 data-number">2</div>
                   <div className="col-md-8 col-sm-12 data-text">
                     <span>
@@ -35,7 +35,7 @@ class HowItWorks extends Component {
                 </div>
               </div>
               <div className="col-md-4 col-sm-12">
-                <div className="row marg">
+                <div className="row no-gutters">
                   <div className="col-md-4 col-sm-12 data-number">3</div>
                   <div className="col-md-8 col-sm-12 data-text">
                     <span>

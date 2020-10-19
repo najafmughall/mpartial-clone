@@ -1,0 +1,42 @@
+.slider .rangeslider__handle-tooltip {
+  width: 180px;
+  height: 80px;
+}
+.rangeslider__fill {
+  background-color: #0a5169;
+}
+.waterfall {
+  max-width: 620px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 14px;
+  padding: 5%;
+  color: rgb(10, 81, 105);
+}
+.fee_btn {
+  width: 195px;
+  height: 108px;
+  margin: 30px auto 15px;
+  padding: 25px 0;
+  text-align: center;
+  background: #0a5169;
+  border-radius: 10px;
+  position: relative;
+}
+.fee_btn label {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 400;
+  display: block;
+  color: #fff;
+  line-height: 28px;
+}
+.fee_btn span {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+}
+.info_text {
+  text-align: center;
+  color: rgb(10, 81, 105);
+}

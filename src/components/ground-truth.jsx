@@ -4,8 +4,8 @@ class GroundTruth extends Component {
   render() {
     return (
       <React.Fragment>
-        <main>
-          <div className="container">
+        <div className="container">
+          <div className="title left">
             <div className="row">
               <div className="col-md-6 col-sm-12">
                 <h1 className="section_text">
@@ -26,7 +26,7 @@ class GroundTruth extends Component {
               </div>
             </div>
           </div>
-        </main>
+        </div>
       </React.Fragment>
     );
   }
