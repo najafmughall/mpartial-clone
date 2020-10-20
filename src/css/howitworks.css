@@ -2,9 +2,23 @@
   padding-top: 2%;
 }
 .section_text2 {
+  background-image: url("../images/circle.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  opacity: 1;
+  font-size: 45px;
+  height: 200px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 58px;
+  background-position: 0 16px;
+  padding-top: 21%;
+  padding-left: 17%;
+  letter-spacing: 0;
   background-position: center;
   text-align: center;
   padding: 12%;
+  color: black;
 }
 
 .data-text a {

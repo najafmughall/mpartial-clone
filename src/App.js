@@ -1,11 +1,11 @@
 import React from "react";
 
 import "./css/footer.css";
+import "./css/howitworks.css";
 import "./css/contact.css";
 import "./css/header.css";
 import "./css/waterfall.css";
 import "./css/mitigration.css";
-import "./css/howitworks.css";
 import "./css/ground.css";
 import "./css/example.css";
 

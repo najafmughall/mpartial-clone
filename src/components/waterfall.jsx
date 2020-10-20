@@ -32,9 +32,7 @@ class Waterfall extends Component {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h1 className="section_text section_text2">
-                Waterfall Fee Structure
-              </h1>
+              <h1 className="section_text2">Waterfall Fee Structure</h1>
             </div>
           </div>
           <div>

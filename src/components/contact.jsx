@@ -35,7 +35,7 @@ class Contact extends Component {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h1 className="section_text section_text2">Contact Us</h1>
+            <h1 className="section_text2">Contact Us</h1>
           </div>
         </div>
         <div className="form-holder">
