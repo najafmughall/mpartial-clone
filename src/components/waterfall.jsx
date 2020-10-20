@@ -6,7 +6,7 @@ class Waterfall extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      volume: 0,
+      volume: 5,
       step: 5,
       labels: {
         0: "$0",
@@ -55,7 +55,7 @@ class Waterfall extends Component {
             Move forward based on the estimated fee structure below.
           </p>
           <div className="fee_btn">
-            <label>7.50%</label>
+            <label>{(volume * 7.5) / 100}%</label>
             <span>mpartial fee</span>
           </div>
           <p className="info_text">[$750 minimum]</p>
