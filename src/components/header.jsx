@@ -4,6 +4,21 @@ import video from "../images/homepage.mp4";
 
 class Header extends Component {
   render() {
+    const header = [
+      "Ground-Truth Data",
+      "How It Works",
+      "Fee Structure",
+      "Example Deliverables",
+      "Submission Portal",
+      "Contact Us",
+    ];
+    const items = header.map((h, index) => (
+      <li key={index} className="nav-itema">
+        <a className="nav-link active" href="#">
+          {h}
+        </a>
+      </li>
+    ));
     return (
       <React.Fragment>
         <header className="main-header">
@@ -18,36 +33,7 @@ class Header extends Component {
 
               <div className="collaspe navbar-collaspe">
                 <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
-                    <a className="nav-link active" href="#">
-                      Ground-Truth Data
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link active" href="#">
-                      How It Works
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link active" href="#">
-                      Fee Structure
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link active" href="#">
-                      Example Devliverables
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link active" href="#">
-                      Submission Portal
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link active" href="#">
-                      Contact Us
-                    </a>
-                  </li>
+                  {items}
                   <li className="nav-item active">
                     <button className="btn-signIn">Sign in</button>
                   </li>

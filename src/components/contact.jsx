@@ -11,6 +11,17 @@ class Contact extends Component {
       message: "",
     };
   }
+  onNameChange(event) {
+    this.setState({ name: event.target.value });
+  }
+
+  onEmailChange(event) {
+    this.setState({ email: event.target.value });
+  }
+
+  onMessageChange(event) {
+    this.setState({ message: event.target.value });
+  }
 
   handleSubmit(e) {
     e.preventDefault();
@@ -114,18 +125,6 @@ class Contact extends Component {
         </div>
       </div>
     );
-  }
-
-  onNameChange(event) {
-    this.setState({ name: event.target.value });
-  }
-
-  onEmailChange(event) {
-    this.setState({ email: event.target.value });
-  }
-
-  onMessageChange(event) {
-    this.setState({ message: event.target.value });
   }
 }
 

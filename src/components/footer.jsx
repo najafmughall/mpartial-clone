@@ -4,8 +4,15 @@ import insta from "../images/insta.svg";
 import linkedin from "../images/linkedin.svg";
 
 class Footer extends Component {
-  state = {};
   render() {
+    const social = [facebook, insta, linkedin];
+    const items = social.map((s, index) => (
+      <li key={index}>
+        <a href="#">
+          <img src={s} width="auto" height="16px" alt="Social-link" />
+        </a>
+      </li>
+    ));
     return (
       <React.Fragment>
         <div className="footer">
@@ -19,38 +26,7 @@ class Footer extends Component {
               </div>
               <div className="col-md-6 col-sm-12">
                 <div className="social-links">
-                  <ul>
-                    <li>
-                      <a href="">
-                        <img
-                          width="auto"
-                          height="16px"
-                          src={facebook}
-                          alt="Facebook"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <img
-                          height="16px"
-                          width="auto"
-                          src={insta}
-                          alt="Facebook"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <img
-                          width="auto"
-                          height="16px"
-                          src={linkedin}
-                          alt="Facebook"
-                        />
-                      </a>
-                    </li>
-                  </ul>
+                  <ul>{items}</ul>
                 </div>
               </div>
             </div>

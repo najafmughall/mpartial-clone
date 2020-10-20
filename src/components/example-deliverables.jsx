@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import img from "../images/img.jpg";
 import sktech1 from "../images/sketch-1.png";
 import sktech2 from "../images/sketch-2.png";
+import Carousel from "react-bootstrap/Carousel";
 
 class ExampleDeliverables extends Component {
   render() {
@@ -25,10 +26,9 @@ class ExampleDeliverables extends Component {
                 <iframe
                   width="100%"
                   height="480"
-                  allowfullscreen
-                  allow="vr "
+                  allowFullScreen
                   src="https://my.matterport.com/show/?m=e5Wxtu8Arbx"
-                  frameborder="0"
+                  frameBorder="0"
                 ></iframe>
               </div>
 
@@ -36,105 +36,26 @@ class ExampleDeliverables extends Component {
                 <iframe
                   width="100%"
                   height="480"
-                  allowfullscreen
-                  allow="vr "
+                  allowFullScreen
                   src="https://my.matterport.com/show/?m=DhqzGgT7M1E"
-                  frameborder="0"
+                  frameBorder="0"
                 ></iframe>
               </div>
             </div>
             <br></br>
             <div className="doc-slider">
               <h3 className="widget-title">Immaculate. Impartial. [ESX]</h3>
-              <div className="carosuel slide">
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="0"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="1"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="2"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="1"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="2"
-                  ></li>
-                </ol>
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img class="d-block w-100" src={img} alt="First slide" />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      className="d-block w-100"
-                      src={img}
-                      alt="Second slide"
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      className="d-block w-100"
-                      src={img}
-                      alt="Third slide"
-                    />
-                  </div>
-                  <div className="carousel-item active">
-                    <img class="d-block w-100" src={img} alt="First slide" />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      className="d-block w-100"
-                      src={img}
-                      alt="Second slide"
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      className="d-block w-100"
-                      src={img}
-                      alt="Third slide"
-                    />
-                  </div>
-                </div>
-                <a
-                  class="carousel-control-prev"
-                  href="#carouselExampleIndicators"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#carouselExampleIndicators"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+              <Carousel className="slide">
+                <Carousel.Item>
+                  <img className="d-block w-100" src={img} alt="First slide" />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img className="d-block w-100" src={img} alt="Third slide" />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img className="d-block w-100" src={img} alt="Third slide" />
+                </Carousel.Item>
+              </Carousel>
             </div>
             <div className="sketch-widget">
               <h3 className="widget-title">TrueSketch PLUS [SKX]</h3>
