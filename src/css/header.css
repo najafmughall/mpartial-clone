@@ -14,7 +14,7 @@
   display: inline-block;
 }
 .navbar-toggler-icon {
-  background-image: url("../src/images/navbar.webp");
+  background-image: url("../images/navbar.webp");
 }
 .home_video_background {
   width: 100%;

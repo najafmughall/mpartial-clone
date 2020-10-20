@@ -1,12 +1,13 @@
 import React from "react";
-import "./header.css";
-import "./ground.css";
-import "./howitworks.css";
-import "./mitigration.css";
-import "./waterfall.css";
-import "./example.css";
-import "./contact.css";
-import "./footer.css";
+
+import "./css/footer.css";
+import "./css/contact.css";
+import "./css/header.css";
+import "./css/waterfall.css";
+import "./css/mitigration.css";
+import "./css/howitworks.css";
+import "./css/ground.css";
+import "./css/example.css";
 
 import Header from "./components/header";
 import GroundTruth from "./components/ground-truth";

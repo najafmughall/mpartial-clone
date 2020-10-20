@@ -37,7 +37,7 @@
 .slide .carousel-control-prev-icon {
   width: 60px;
   height: 60px;
-  background: url("../src/images/pervious.png");
+  background: url("../images/pervious.png");
   background-size: 50px;
   background-repeat: no-repeat;
 }

@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .section_text {
-  background-image: url("../src/images/circle.png");
+  background-image: url("../images/circle.png");
   background-repeat: no-repeat;
   background-size: 200px 200px;
   opacity: 1;
