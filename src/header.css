@@ -7,6 +7,9 @@
   border-bottom: #fff 1px solid;
   z-index: 99;
 }
+.scrolled {
+  background-color: white;
+}
 .navbar-toggler {
   display: inline-block;
 }
@@ -29,8 +32,13 @@
   visibility: visible;
   overflow: hidden;
 }
+.navedB {
+  color: #000;
+}
+.navedW {
+  color: #fff;
+}
 .nav-link {
-  color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-size: 12px;
 }

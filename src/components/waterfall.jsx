@@ -37,8 +37,9 @@ class Waterfall extends Component {
               </h1>
             </div>
           </div>
-          <div className="slider">
+          <div>
             <Slider
+              className="slider1"
               value={volume}
               orientation="horizontal"
               onChange={this.handleOnChange}
